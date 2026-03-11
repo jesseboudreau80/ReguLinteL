@@ -1,0 +1,14 @@
+{
+  "CA": {
+    "agencies": ["County Public Health", "Fire Marshal"]
+  },
+  "TX": {
+    "agencies": ["County Environmental Health", "Fire Marshal"]
+  },
+  "FL": {
+    "agencies": ["County Health Department"]
+  },
+  "NY": {
+    "agencies": ["Department of Agriculture and Markets"]
+  }
+}

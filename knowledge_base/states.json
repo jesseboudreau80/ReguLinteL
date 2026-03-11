@@ -1,0 +1,14 @@
+{
+  "CA": {
+    "statewide_licenses": ["Secretary of State registration", "State employer registration"]
+  },
+  "TX": {
+    "statewide_licenses": ["Texas tax permit", "State employer registration"]
+  },
+  "FL": {
+    "statewide_licenses": ["Florida business tax receipt"]
+  },
+  "NY": {
+    "statewide_licenses": ["New York sales tax certificate"]
+  }
+}

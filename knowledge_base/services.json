@@ -1,0 +1,30 @@
+{
+  "boarding": {
+    "licenses": ["City kennel license"],
+    "inspection_agencies": ["Animal Control", "Fire Department"]
+  },
+  "daycare": {
+    "licenses": ["City kennel license"],
+    "inspection_agencies": ["Animal Control"]
+  },
+  "grooming": {
+    "licenses": ["Business license"],
+    "inspection_agencies": ["Health Department"]
+  },
+  "retail": {
+    "licenses": ["Retail merchant certificate", "Sales tax registration"],
+    "inspection_agencies": ["Tax Authority"]
+  },
+  "swimming": {
+    "licenses": ["Commercial pool permit"],
+    "inspection_agencies": ["Health Department"]
+  },
+  "veterinary": {
+    "licenses": ["Veterinary premises license", "DEA registration"],
+    "inspection_agencies": ["State Veterinary Board"]
+  },
+  "training": {
+    "licenses": ["General business license"],
+    "inspection_agencies": ["Animal Control"]
+  }
+}

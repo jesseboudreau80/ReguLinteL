@@ -1,0 +1,17 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f3f5f8; color: #1f2937; }
+.layout { display: grid; grid-template-columns: 240px 1fr; min-height: 100vh; }
+aside { background: #0f172a; color: white; padding: 24px; }
+aside nav { display: flex; flex-direction: column; gap: 12px; }
+aside a { color: #dbeafe; text-decoration: none; }
+main { padding: 24px; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: white; }
+th, td { padding: 10px; border-bottom: 1px solid #e5e7eb; font-size: 14px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+.dot.green { background: #22c55e; }
+.dot.yellow { background: #eab308; }
+.dot.red { background: #ef4444; }
+.dot.gray { background: #9ca3af; }
+.card { background: white; padding: 16px; border-radius: 10px; display: flex; flex-direction: column; gap: 10px; max-width: 560px; }
+input { padding: 10px; border: 1px solid #d1d5db; border-radius: 8px; }
+.services { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+button { background: #2563eb; border: none; color: white; padding: 10px 12px; border-radius: 8px; cursor: pointer; }

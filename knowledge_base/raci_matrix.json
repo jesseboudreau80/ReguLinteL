@@ -1,0 +1,17 @@
+{
+  "City kennel license": {
+    "responsible_team": "LP"
+  },
+  "Fire Inspection": {
+    "responsible_team": "Facilities"
+  },
+  "Veterinary premises license": {
+    "responsible_team": "Vet Ops"
+  },
+  "Commercial pool permit": {
+    "responsible_team": "Facilities"
+  },
+  "Sales tax registration": {
+    "responsible_team": "Finance"
+  }
+}
