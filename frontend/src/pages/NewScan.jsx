@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API = 'http://localhost:8000'
+const API = 'http://66.94.117.172:8000'
 const serviceOptions = ['boarding','daycare','grooming','veterinary','training','retail','swimming']
 
 export function NewScan({ onDone }) {
@@ -14,6 +14,7 @@ export function NewScan({ onDone }) {
   const submit = async (e) => {
     e.preventDefault()
     setStatus('Running silent scan...')
+    console.log('Submitting scan payload:', form)
     const r = await fetch(`${API}/api/scans`, {
       method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form)
     })
